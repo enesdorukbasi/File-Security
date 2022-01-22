@@ -1,0 +1,14 @@
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.DAL\bin\Debug\FileSecurity.DAL.dll.config
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.DAL\bin\Debug\FileSecurity.DAL.dll
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.DAL\bin\Debug\FileSecurity.DAL.pdb
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.DAL\bin\Debug\EntityFramework.dll
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.DAL\bin\Debug\FileSecurity.EL.dll
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.DAL\bin\Debug\FileSecurity.EL.pdb
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.DAL\bin\Debug\EntityFramework.xml
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.DAL\obj\Debug\FileSecurity.DAL.csprojAssemblyReference.cache
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.DAL\obj\Debug\FileSecurity.DAL.csproj.CoreCompileInputs.cache
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.DAL\obj\Debug\FileSecurity.DAL.csproj.CopyComplete
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.DAL\obj\Debug\FileSecurity.DAL.dll
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.DAL\obj\Debug\FileSecurity.DAL.pdb

@@ -1,0 +1,44 @@
+﻿<Page x:Class="FileSecurity.WPF.Views.MainViews.SettingsView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:local="clr-namespace:FileSecurity.WPF.Views.MainViews"
+      mc:Ignorable="d" 
+      d:DesignHeight="370" d:DesignWidth="440"
+      Title="SettingsView">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <GroupBox Header="Kullanıcı" Margin="10 0" Grid.Row="0">
+
+            <StackPanel Orientation="Vertical" Margin="5">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <TextBlock Text="Giriş Yapılan Kullanıcı :" Style="{DynamicResource MaterialDesignTextBlock}" FontSize="12" Foreground="White" FontWeight="Bold"/>
+                    <TextBlock x:Name="txtbUserName" Style="{DynamicResource MaterialDesignTextBlock}" FontSize="12" Foreground="White"/>
+                    <TextBlock Text=" - " Style="{DynamicResource MaterialDesignTextBlock}" FontSize="12" Foreground="White"/>
+                    <TextBlock x:Name="txtUserMail" Style="{DynamicResource MaterialDesignTextBlock}" FontSize="12" Foreground="White"/>
+                </StackPanel>
+
+                <Button x:Name="btnUserUpdate" Content="Güncelle" Style="{DynamicResource MaterialDesignFlatAccentBgButton}" Width="100" Margin="20"
+                        Background="#3A6180" BorderBrush="White" Foreground="White"
+                        Command="{Binding UpdateCommand}" />
+            </StackPanel>
+
+        </GroupBox>
+
+        <GroupBox Header="Info" Margin="10 0" Grid.Row="1">
+            <StackPanel Orientation="Vertical">
+                <Button x:Name="btnContact" Content="Öneri ve Şikayet" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnContact_Click" 
+                        Style="{DynamicResource MaterialDesignRaisedDarkButton}"/>
+            </StackPanel>
+        </GroupBox>
+
+    </Grid>
+</Page>

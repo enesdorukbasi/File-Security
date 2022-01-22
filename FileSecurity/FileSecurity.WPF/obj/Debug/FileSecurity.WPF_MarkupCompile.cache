@@ -1,0 +1,20 @@
+﻿FileSecurity.WPF
+
+
+winexe
+C#
+.cs
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.WPF\obj\Debug\
+FileSecurity.WPF
+none
+false
+DEBUG;TRACE
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.WPF\App.xaml
+10-1076526578
+
+211462263997
+21426660545
+Views\MainView.xaml;Views\MainViewInner\FileWindow.xaml;Views\MainViewInner\SecurityWindow.xaml;Views\MainViewInner\UserUpdateWindow.xaml;Views\MainViews\HomeView.xaml;Views\MainViews\SecurityView.xaml;Views\MainViews\SettingsView.xaml;Views\UserControls\PopupUserControl.xaml;Views\UserViews\LoginView.xaml;Views\UserViews\SignInView.xaml;
+
+True
+

@@ -1,0 +1,14 @@
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.BL\bin\Debug\FileSecurity.BL.dll
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.BL\bin\Debug\FileSecurity.BL.pdb
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.BL\bin\Debug\FileSecurity.DAL.dll
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.BL\bin\Debug\FileSecurity.EL.dll
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.BL\bin\Debug\EntityFramework.dll
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.BL\bin\Debug\FileSecurity.DAL.pdb
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.BL\bin\Debug\FileSecurity.DAL.dll.config
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.BL\bin\Debug\FileSecurity.EL.pdb
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.BL\bin\Debug\EntityFramework.xml
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.BL\obj\Debug\FileSecurity.BL.csprojAssemblyReference.cache
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.BL\obj\Debug\FileSecurity.BL.csproj.CoreCompileInputs.cache
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.BL\obj\Debug\FileSecurity.BL.csproj.CopyComplete
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.BL\obj\Debug\FileSecurity.BL.dll
+D:\ENES DORUKBAŞI\Projeler\FileSecurity\26.07.21\FileSecurity\FileSecurity.BL\obj\Debug\FileSecurity.BL.pdb

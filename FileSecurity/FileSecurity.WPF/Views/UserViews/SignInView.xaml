@@ -1,0 +1,56 @@
+﻿<Window x:Class="FileSecurity.WPF.Views.UserViews.SignInView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign ="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:FileSecurity.WPF.Views.UserViews"
+        mc:Ignorable="d"
+        Title="SignInView" Height="450" Width="800" ResizeMode="NoResize" WindowStyle="None"
+        WindowStartupLocation="CenterScreen" AllowsTransparency="True" Background="Transparent">
+    <Grid>
+        <Grid Margin="20">
+            <Grid.Effect>
+                <DropShadowEffect BlurRadius="30" ShadowDepth="2" Direction="-90"
+                                  Color="Gray"/>
+            </Grid.Effect>
+            <Grid MouseDown="Grid_MouseDown">
+                <Grid>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="/Images/background.jpeg" Stretch="Fill"/>
+                    </Grid.Background>
+                </Grid>
+
+                <Viewbox Width="40" Height="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="15" 
+                 x:Name="btnBack" MouseDown="btnBack_MouseDown" Opacity="0.8">
+                    <Canvas Width="24" Height="24">
+                        <Path Fill="White" Data="M2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12M18,11H10L13.5,7.5L12.08,6.08L6.16,12L12.08,17.92L13.5,16.5L10,13H18V11Z" />
+                    </Canvas>
+                </Viewbox>
+
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Margin="15" Width="250"
+                    Opacity="0.8" VerticalAlignment="Center" Background="Gray">
+
+                    <TextBlock Text="Kayıt Olunuz" FontFamily="Baskerville,Georgia" FontSize="25" FontWeight="DemiBold"
+                       Foreground="White" Margin="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+                    <TextBox x:Name="txtUserName" materialDesign:HintAssist.Hint="Adınızı Giriniz" Margin="10"
+                     Style="{StaticResource MaterialDesignOutlinedTextBox}" VerticalAlignment="Center"
+                     Foreground="White" BorderBrush="White" BorderThickness="2" Text="{Binding UserName, UpdateSourceTrigger=Explicit}"/>
+
+                    <TextBox x:Name="txtUserMail" materialDesign:HintAssist.Hint="Mail Adresinizi Giriniz" Margin="10"
+                     Style="{StaticResource MaterialDesignOutlinedTextBox}" VerticalAlignment="Center"
+                     Foreground="White" BorderBrush="White" BorderThickness="2" Text="{Binding EMail, UpdateSourceTrigger=Explicit}"/>
+
+                    <TextBox x:Name="txtUserPassword" materialDesign:HintAssist.Hint="Parolanızı Giriniz" Margin="10"
+                     Style="{StaticResource MaterialDesignOutlinedTextBox}" VerticalAlignment="Center"
+                     Foreground="White" BorderBrush="White" BorderThickness="2" Text="{Binding Password, UpdateSourceTrigger=Explicit}"/>
+
+                    <Button x:Name="btnOkay" Content="Tamamla" HorizontalAlignment="Center" VerticalAlignment="Center"
+                    Background="DimGray" Click="btnOkay_Click" Margin="5 15" BorderThickness="2" BorderBrush="White" />
+
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
